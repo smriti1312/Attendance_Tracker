@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marking Attendence</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+      @font-face {
+        font-family: "AstroSpace";
+        src: url(/fonts/AstroSpace.ttf);
+      }
+      body {
+        color: #fff;
+        font-size: 1.25rem;
+        line-height: 150%;
+        text-shadow: 0 2px 2px #b6701e;
+        margin: 0;
+        padding: 0;
+        font-family: "AstroSpace", sans-serif;
+        background-color: #ff9e2c;
+      }
+    
+      .inner{
+          position: relative;
+      }
+      .image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 2%);
+        width: 60%;
+        height: 82vh;
+        border: 4px solid rgb(70, 70, 70);
+        box-shadow: 2px 2px 2px 1px grey;
+        border-radius: 10px;
+      }
+
+      header {
+        background-color: #141b25;
+      }
+
+      .main-nav {
+        font-family: "AstroSpace", sans-serif;
+        height: 90px;
+      }
+
+      .logo {
+        color: white;
+        line-height: 90px;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        margin-left: 2rem;
+        font-family: "AstroSpace", sans-serif;
+      }
+
+      .navlinks {
+        list-style: none;
+        float: right;
+        line-height: 90px;
+        margin: 0;
+        padding: 0 2rem;
+      }
+
+      .navlinks li {
+        display: inline-block;
+        margin: 0px 20px;
+      }
+
+      .navlinks li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        transition: all 0.1s linear 0s;
+        text-transform: uppercase;
+      }
+
+      .navlinks li a:hover {
+        color: #ff9e2c;
+        padding-bottom: 7px;
+        border-bottom: 2px solid #b6701e;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="main-nav">
+        <a href="/" class="logo">ATTEND</a>
+        <ul class="navlinks">
+          <li><a href="/restart_function">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+        <div class="inner">
+            <img class="image" src="{{ url_for('video_feed') }}" />
+        </div>
+    </div>
+  </body>
+</html>
