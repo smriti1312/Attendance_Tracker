@@ -27,3 +27,11 @@ A Tracker that uses a face recognition system to track your attendance. Here , I
 5.	Match the encodings taken by Webcam with the images we have already stored for training the model, if it matches face will be recognized otherwise not.
 
 
+### INSTRUCTIONS TO RUN
+1.	First Download or clone the project.
+2.	Import the Project to your favorite IDE.
+3.	Create a python environment.
+4.	Install all the packages and libraries.
+5.	Run the project using the Command prompt or your IDE Run Button.
+6.	Click the link you got in your terminal and You are all set to go .
+
