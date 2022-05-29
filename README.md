@@ -32,6 +32,6 @@ A Tracker that uses a face recognition system to track your attendance. Here , I
 2.	Import the Project to your favorite IDE.
 3.	Create a python environment.
 4.	Install all the packages and libraries.
-5.	Run the project using the Command prompt or your IDE Run Button.
+5.	Run the main.py file using the Command prompt or your IDE Run Button.
 6.	Click the link you got in your terminal and You are all set to go .
 
