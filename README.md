@@ -1,9 +1,9 @@
- Attendance_Tracker
+# Attendance_Tracker
 
 A Tracker that uses a face recognition system to track your attendance. Here , I have used python and HTML in this project.
 
 
- LIBRARIES used :
+ ### LIBRARIES used :
 •	Numpy
 •	Pandas
 •	Face_recognitiom
@@ -15,7 +15,7 @@ A Tracker that uses a face recognition system to track your attendance. Here , I
  
  
  
-PROCESS :
+### PROCESS :
 1.	Take some images for training the model.
 2.	Convert them into RGB format
 3.	Find the Face Encodings ( A Face Encoding is basically a way to represent the face using a set of 128 computer-generated measurements .)
